@@ -1,8 +1,0 @@
-diff --git a/interop/hole-punch/Dockerfile b/interop/hole-punch/Dockerfile
-index 7cdac0b..0791bea 100644
---- a/interop/hole-punch/Dockerfile
-+++ b/interop/hole-punch/Dockerfile
-@@ -23,2 +23 @@ RUN cabal build libp2p-hole-punch \
--    && cp "$(cabal list-bin libp2p-hole-punch)" /app/libp2p-hole-punch \
--    && strip /app/libp2p-hole-punch
-+    && cp "$(cabal list-bin libp2p-hole-punch)" /app/libp2p-hole-punch
