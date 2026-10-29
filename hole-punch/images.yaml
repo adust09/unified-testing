@@ -55,7 +55,7 @@ implementations:
     source:
       type: github
       repo: adust09/hs-libp2p
-      commit: 2a65aa6bada06359bc187d703da04fde8aee4f05
+      commit: 31849f062fdbe801d844c3736aa25b7ac496f8b5
       dockerfile: interop/hole-punch/Dockerfile
     transports: [tcp]
     secureChannels: [noise]
