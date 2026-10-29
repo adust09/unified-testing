@@ -57,6 +57,8 @@ implementations:
       repo: adust09/hs-libp2p
       commit: 2a65aa6bada06359bc187d703da04fde8aee4f05
       dockerfile: interop/hole-punch/Dockerfile
+      patchPath: images/haskell/v0.1
+      patchFile: no-strip.patch
     transports: [tcp]
     secureChannels: [noise]
     muxers: [yamux]
